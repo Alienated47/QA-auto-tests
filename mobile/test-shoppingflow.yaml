@@ -1,0 +1,52 @@
+appId: com.pozitron.hepsiburada
+---
+# Launch app on clear state
+- launchApp:
+    clearState: true
+
+- scrollUntilVisible:
+    element: "Bunlar da ilgini \u00e7ekebilir"
+
+# scroll untill the first product card is visible
+# ensure the visibility
+# tap on to proceed to the details page
+- scrollUntilVisible:
+    element:
+      id: "productBoxImage"
+
+- assertVisible:
+    id: "productBoxImage"
+
+- tapOn:
+    id: "productBoxImage"
+
+# ensure the images and the title are correct
+- assertVisible:
+    id: "summaryTitleComponent"
+- scrollUntilVisible:
+    element:
+      id: "productBoxImage"
+
+# scroll down to details/merchants
+- scrollUntilVisible:
+    element:
+      id: "merchantView"
+
+# make sure the cart button is on screen
+# add to cart
+- assertVisible: "Sepete ekle"
+- tapOn: "Sepete ekle"
+
+# view cart
+- tapOn: "Sepete git"
+
+#check item information
+- assertVisible:
+    point: 2%,32%
+
+# go to payment page, proceed without log-in
+- tapOn: "\u00d6demeye Ge\u00e7"
+- tapOn: "\u00dcye olmadan devam et"
+
+
+
