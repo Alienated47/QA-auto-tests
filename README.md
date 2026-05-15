@@ -21,3 +21,6 @@ if the test encounters timeout problem on run, you can try to use debug run.
 
 #### mobile test:
 mobile test is written by referencing Android 12.0 S on android emulator. you can access the mobile shopping flow test under "QA Basket Test/mobile/test-shoppingflow.yaml"
+
+https://github.com/Alienated47/QA-auto-tests/tree/assignment2-hepsiburada-shopflow 
+branch name: assignmen2-hepsiburada-shopflow

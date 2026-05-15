@@ -1,0 +1,16 @@
+# Scroll until recommendation section appears
+- scrollUntilVisible:
+    element: "Bunlar da ilgini çekebilir"
+
+# Scroll until first product card is visible
+- scrollUntilVisible:
+    element:
+      id: "productBoxImage"
+
+# Ensure product card exists
+- assertVisible:
+    id: "productBoxImage"
+
+# Open product detail page
+- tapOn:
+    id: "productBoxImage"

@@ -1,0 +1,19 @@
+# Validate product title
+- assertVisible:
+    id: "summaryTitleComponent"
+
+# Ensure product image exists
+- scrollUntilVisible:
+    element:
+      id: "productBoxImage"
+
+# Scroll to merchant section
+- scrollUntilVisible:
+    element:
+      id: "merchantView"
+
+# Verify add to cart button
+- assertVisible: "Sepete ekle"
+
+# Add item to cart
+- tapOn: "Sepete ekle"

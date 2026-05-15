@@ -1,0 +1,7 @@
+productImage: "productBoxImage"
+merchantView: "merchantView"
+summaryTitle: "summaryTitleComponent"
+addToCartButton: "Sepete ekle"
+cartButton: "Sepete git"
+paymentButton: "Ödemeye Geç"
+guestCheckoutButton: "Üye olmadan devam et"

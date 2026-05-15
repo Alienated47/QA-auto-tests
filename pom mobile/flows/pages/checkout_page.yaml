@@ -1,0 +1,5 @@
+# Proceed to payment
+- tapOn: "Ödemeye Geç"
+
+# Continue without login
+- tapOn: "Üye olmadan devam et"

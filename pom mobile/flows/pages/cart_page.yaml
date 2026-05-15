@@ -1,0 +1,6 @@
+# Navigate to cart
+- tapOn: "Sepete git"
+
+# Verify cart item information
+- assertVisible:
+    point: 2%,32%
